@@ -14,7 +14,7 @@ public class SpringBootJenkinApplication {
 	
 	@PostConstruct
 	public void getMessage() {
-		logger.info("Application started inside GetMessage() method..."); 
+		logger.info("Application started inside GetMessage() method updated..."); 
 	}
 	public static void main(String[] args) {
 		logger.info("Application started inside Main() method..."); 
